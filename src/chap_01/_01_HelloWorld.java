@@ -1,4 +1,4 @@
-package Youtube_Lecture_1.chap_01;
+package chap_01;
 
 public class _01_HelloWorld {
     public static void main(String[] args){
