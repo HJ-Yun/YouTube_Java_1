@@ -2,7 +2,15 @@ package chap_01;
 
 public class _05_valiable {
     public static void main(String[] args) {
-        String nataional = "korea";
+        /*Variable for name
+         1. Reasonable name
+         2. UnderBar(_), Character(a,b,c), Number(1,2,3), can be used. (No blank)
+         3. Can start from UnderBar or Character
+         4. One or more Character
+         5. Start from small character, each of word starting from large character
+         */
+
+        String nationality = "korea";
         String firstName = "jin";
         String lastName = "yun";
         String cityOfKorea = "Deagu";
@@ -13,7 +21,7 @@ public class _05_valiable {
         String item1 = "watch";
         String item2 = "doll";
 
-        final String CODE = "KR";
+        final String CODE = "KR"; //The constant must use large character
 
 
 
