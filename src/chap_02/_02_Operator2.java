@@ -10,7 +10,10 @@ public class _02_Operator2 {
         System.out.println(num);
 
         num = 10;
-        num += 2;
-        System.out.println(num);
+        num += 2; //Same as "num = num + 2"
+        System.out.println(num); //12
+
+        num -= 2;
+        System.out.println(num); //10
     }
 }
