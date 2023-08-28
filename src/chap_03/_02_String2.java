@@ -5,12 +5,12 @@ public class _02_String2 {
         String s = "I like Java and Python and C.";
 
         // Character Change
-        System.out.println(s.replace(" and", ","));
-        System.out.println(s.substring(7)); //Start from index 7
-        System.out.println(s.substring(s.indexOf("Java")));
-        System.out.println(s.substring(s.indexOf("Java"), s.lastIndexOf(".")));
-        System.out.println(s.substring(s.indexOf("Java"), s.indexOf("and")));
-        System.out.println(s.substring(s.indexOf("Java"), s.lastIndexOf("and")));
+        System.out.println(s.replace(" and", ",")); //I like Java, Python, C.
+        System.out.println(s.substring(7)); //Java and Python and C. //Start from index 7
+        System.out.println(s.substring(s.indexOf("Java"))); //Java and Python and C.
+        System.out.println(s.substring(s.indexOf("Java"), s.lastIndexOf("."))); //Java and Python and C
+        System.out.println(s.substring(s.indexOf("Java"), s.indexOf("and"))); //Java
+        System.out.println(s.substring(s.indexOf("Java"), s.lastIndexOf("and"))); //Java and Python
 
         //Delete blank
         s = "          I love Java.            ";
